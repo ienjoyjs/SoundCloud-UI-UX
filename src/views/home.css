@@ -1,0 +1,19 @@
+.home-container {
+  position: absolute;
+  width: 414px;
+  height: 100vh;
+  overflow: hidden;
+  top: 0;
+}
+
+.home-container .pages {
+  position: absolute;
+  top: 0;
+  display: flex;
+  transition: ease all .3s;
+}
+
+.home-container .pages > * {
+  width: 414px;
+  flex-shrink: 0;
+}
